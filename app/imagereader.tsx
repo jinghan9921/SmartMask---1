@@ -20,7 +20,7 @@ import { classifyHealthState } from './results';
 
 
 const URL = 'https://sdk.photoroom.com/v1/segment';
-const PlaceholderImage = require('../assets/images/background-image.png');
+const PlaceholderImage = require('../assets/images/imagereader_placeholder.jpg');
 const API_KEY = 'sandbox_fd48f847b70fe7befcc4ace1afd9d7f21b1e48d1';
 
 export const removeBackground = async (imageUri: string) => {
